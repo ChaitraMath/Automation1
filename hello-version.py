@@ -1,7 +1,8 @@
 from platform import python_version
 import sqlite3
 import mysql.connector as mysql
-
+import requests
+import json
 def main():
     print(f'This is python version {python_version()}')
     print(f"SQLite version {sqlite3.sqlite_version}")
@@ -9,3 +10,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+  
